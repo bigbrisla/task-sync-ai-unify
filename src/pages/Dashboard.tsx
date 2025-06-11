@@ -116,8 +116,8 @@ const Dashboard = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
         {/* Welcome Section */}
         <div className="mb-8">
-          <h2 className="text-2xl font-bold text-gray-900 mb-2">Buongiorno, Marco! 👋</h2>
-          <p className="text-gray-600">Hai 3 task urgenti oggi. L'AI suggerisce di iniziare con il project proposal.</p>
+          <h2 className="text-2xl font-bold text-gray-900 mb-2">Good morning, Marco! 👋</h2>
+          <p className="text-gray-600">You have 3 urgent tasks today. AI suggests starting with the project proposal.</p>
         </div>
 
         {/* Stats Grid */}
@@ -138,15 +138,15 @@ const Dashboard = () => {
         {/* Tasks Section */}
         <Card className="p-6">
           <div className="flex items-center justify-between mb-6">
-            <h3 className="text-lg font-semibold text-gray-900">I tuoi task</h3>
+            <h3 className="text-lg font-semibold text-gray-900">Your tasks</h3>
             <div className="flex items-center space-x-2">
               <Button variant="outline" size="sm">
                 <Filter className="w-4 h-4 mr-2" />
-                Filtra
+                Filter
               </Button>
               <Button size="sm" className="bg-primary-500 hover:bg-primary-600">
                 <Plus className="w-4 h-4 mr-2" />
-                Nuovo task
+                New task
               </Button>
             </div>
           </div>
@@ -154,10 +154,10 @@ const Dashboard = () => {
           {/* Filter buttons */}
           <div className="flex space-x-2 mb-6">
             {[
-              { key: 'all', label: 'Tutti' },
-              { key: 'pending', label: 'In sospeso' },
-              { key: 'completed', label: 'Completati' },
-              { key: 'high', label: 'Alta priorità' }
+              { key: 'all', label: 'All' },
+              { key: 'pending', label: 'Pending' },
+              { key: 'completed', label: 'Completed' },
+              { key: 'high', label: 'High priority' }
             ].map((filterOption) => (
               <Button
                 key={filterOption.key}

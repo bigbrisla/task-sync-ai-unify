@@ -137,7 +137,7 @@ const DemoMockup = () => {
               </div>
               <div>
                 <p className="font-medium text-gray-900">Smart Notification</p>
-                <p className="text-sm text-gray-600">Hai 3 task urgenti oggi. Ti suggeriamo di iniziare con il project proposal.</p>
+                <p className="text-sm text-gray-600">You have 3 urgent tasks today. We suggest starting with the project proposal.</p>
               </div>
             </div>
           </div>

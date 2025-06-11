@@ -10,7 +10,7 @@ const TestimonialsSection = () => {
       role: 'Freelance Developer',
       company: 'Independent',
       avatar: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=100&h=100&fit=crop&crop=face',
-      content: 'TaskSync.AI ha rivoluzionato il mio workflow. Prima avevo task sparsi tra 5 app diverse, ora tutto è centralizzato e l\'AI mi suggerisce cosa fare per primo.',
+      content: 'TaskSync.AI has revolutionized my workflow. I used to have tasks scattered across 5 different apps, now everything is centralized and the AI suggests what to do first.',
       rating: 5
     },
     {
@@ -18,15 +18,15 @@ const TestimonialsSection = () => {
       role: 'Product Manager',
       company: 'TechStartup',
       avatar: 'https://images.unsplash.com/photo-1494790108755-2616b612b786?w=100&h=100&fit=crop&crop=face',
-      content: 'La prioritizzazione AI è incredibile. Riesce a capire quali task sono veramente urgenti basandosi sul contesto e sulle deadline. Un game changer!',
+      content: 'The AI prioritization is incredible. It can understand which tasks are truly urgent based on context and deadlines. A real game changer!',
       rating: 5
     },
     {
       name: 'Alessandro Bianchi',
-      role: 'Studente Magistrale',
-      company: 'Università Bocconi',
+      role: 'Graduate Student',
+      company: 'Bocconi University',
       avatar: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&h=100&fit=crop&crop=face',
-      content: 'Come studente uso tantissime app per organizzarmi. TaskSync mi ha fatto risparmiare ore ogni settimana e i miei voti sono migliorati!',
+      content: 'As a student I use many apps to organize myself. TaskSync has saved me hours every week and my grades have improved!',
       rating: 5
     },
     {
@@ -34,7 +34,7 @@ const TestimonialsSection = () => {
       role: 'Marketing Director',
       company: 'Digital Agency',
       avatar: 'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=100&h=100&fit=crop&crop=face',
-      content: 'Le notifiche smart sono perfette. Non vengo più disturbata continuamente, ma ricevo avvisi solo per le cose davvero importanti.',
+      content: 'Smart notifications are perfect. I no longer get constantly disturbed, but receive alerts only for things that really matter.',
       rating: 5
     },
     {
@@ -42,7 +42,7 @@ const TestimonialsSection = () => {
       role: 'Startup Founder',
       company: 'InnovTech',
       avatar: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=100&h=100&fit=crop&crop=face',
-      content: 'Il dashboard unificato è quello che cercavo da anni. Vedere tutti i task del team in un posto solo ha migliorato la nostra produttività del 40%.',
+      content: 'The unified dashboard is what I\'ve been looking for years. Seeing all team tasks in one place has improved our productivity by 40%.',
       rating: 5
     },
     {
@@ -50,7 +50,7 @@ const TestimonialsSection = () => {
       role: 'UX Designer',
       company: 'Creative Studio',
       avatar: 'https://images.unsplash.com/photo-1544725176-7c40e5a71c5e?w=100&h=100&fit=crop&crop=face',
-      content: 'L\'interfaccia è bellissima e intuitiva. Si vede che è stata progettata da chi capisce davvero le esigenze dei creative. Consigliatissimo!',
+      content: 'The interface is beautiful and intuitive. You can tell it was designed by someone who truly understands the needs of creatives. Highly recommended!',
       rating: 5
     }
   ];
@@ -60,10 +60,10 @@ const TestimonialsSection = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-            Cosa dicono i nostri <span className="gradient-text">utenti</span>
+            What our <span className="gradient-text">users</span> say
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Oltre 10,000 professionisti si affidano a TaskSync.AI per gestire la loro produttività
+            Over 10,000 professionals rely on TaskSync.AI to manage their productivity
           </p>
         </div>
 
@@ -102,19 +102,19 @@ const TestimonialsSection = () => {
         <div className="mt-16 grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
           <div>
             <div className="text-3xl font-bold gradient-text mb-2">10K+</div>
-            <div className="text-gray-600">Utenti attivi</div>
+            <div className="text-gray-600">Active users</div>
           </div>
           <div>
             <div className="text-3xl font-bold gradient-text mb-2">50M+</div>
-            <div className="text-gray-600">Task sincronizzati</div>
+            <div className="text-gray-600">Tasks synced</div>
           </div>
           <div>
             <div className="text-3xl font-bold gradient-text mb-2">98%</div>
-            <div className="text-gray-600">Soddisfazione utenti</div>
+            <div className="text-gray-600">User satisfaction</div>
           </div>
           <div>
             <div className="text-3xl font-bold gradient-text mb-2">15+</div>
-            <div className="text-gray-600">Integrazioni</div>
+            <div className="text-gray-600">Integrations</div>
           </div>
         </div>
       </div>

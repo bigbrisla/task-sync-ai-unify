@@ -6,20 +6,20 @@ const HowItWorksSection = () => {
   const steps = [
     {
       icon: Link,
-      title: 'Collega i tuoi account',
-      description: 'Connetti facilmente Trello, Todoist, Notion, Google Tasks e altre 15+ piattaforme con un click.',
+      title: 'Connect your accounts',
+      description: 'Easily connect Trello, Todoist, Notion, Google Tasks and 15+ other platforms with one click.',
       color: 'from-blue-500 to-blue-600'
     },
     {
       icon: Zap,
-      title: "Lascia che l'AI organizzi",
-      description: "La nostra AI analizza i tuoi task, identifica le priorità e suggerisce l'ordine ottimale di esecuzione.",
+      title: "Let AI organize",
+      description: "Our AI analyzes your tasks, identifies priorities and suggests the optimal execution order.",
       color: 'from-purple-500 to-purple-600'
     },
     {
       icon: BarChart3,
-      title: 'Gestisci tutto in una dashboard',
-      description: 'Visualizza, gestisci e completa tutti i tuoi task da un\'unica interfaccia pulita e intuitiva.',
+      title: 'Manage everything in one dashboard',
+      description: 'View, manage and complete all your tasks from a single clean and intuitive interface.',
       color: 'from-green-500 to-green-600'
     }
   ];
@@ -29,10 +29,10 @@ const HowItWorksSection = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-            Come funziona <span className="gradient-text">TaskSync.AI</span>
+            How <span className="gradient-text">TaskSync.AI</span> works
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Tre semplici passaggi per trasformare il caos dei tuoi task in un sistema organizzato e produttivo
+            Three simple steps to transform your task chaos into an organized and productive system
           </p>
         </div>
 
@@ -65,9 +65,9 @@ const HowItWorksSection = () => {
 
         {/* CTA */}
         <div className="text-center mt-12">
-          <p className="text-gray-600 mb-6">Pronto a semplificare la tua produttività?</p>
+          <p className="text-gray-600 mb-6">Ready to simplify your productivity?</p>
           <button className="bg-primary-500 hover:bg-primary-600 text-white px-8 py-3 rounded-lg font-semibold transition-colors">
-            Inizia gratis ora
+            Start free now
           </button>
         </div>
       </div>

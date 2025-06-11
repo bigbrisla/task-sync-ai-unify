@@ -23,15 +23,16 @@ const HeroSection = () => {
               </div>
 
               <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-gray-900 leading-tight mb-6">
-                Unifica tutti i tuoi{' '}
-                <span className="gradient-text">task</span>{' '}
-                in una dashboard{' '}
-                <span className="gradient-text">intelligente</span>
+                Unify all your{' '}
+                <span className="gradient-text">tasks</span>{' '}
+                in one{' '}
+                <span className="gradient-text">intelligent</span>{' '}
+                dashboard
               </h1>
 
               <p className="text-xl text-gray-600 mb-8 max-w-2xl">
-                Sincronizza automaticamente task da Trello, Todoist, Notion, Google Tasks e altre 15+ piattaforme. 
-                L'AI di TaskSync organizza le tue priorità e ti tiene sempre aggiornato.
+                Automatically sync tasks from Trello, Todoist, Notion, Google Tasks and 15+ other platforms. 
+                TaskSync's AI organizes your priorities and keeps you always updated.
               </p>
 
               <div className="flex flex-col sm:flex-row gap-4 mb-8">

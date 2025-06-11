@@ -9,59 +9,59 @@ const PricingSection = () => {
     {
       name: 'Free',
       price: '0',
-      period: 'per sempre',
-      description: 'Perfetto per iniziare',
+      period: 'forever',
+      description: 'Perfect to get started',
       features: [
-        '3 piattaforme connesse',
-        'Fino a 100 task sincronizzati',
-        'Prioritizzazione AI di base',
-        'Notifiche email',
-        'Dashboard semplice'
+        '3 connected platforms',
+        'Up to 100 synced tasks',
+        'Basic AI prioritization',
+        'Email notifications',
+        'Simple dashboard'
       ],
       limitations: [
-        'No notifiche Telegram',
-        'No statistiche avanzate',
+        'No Telegram notifications',
+        'No advanced analytics',
         'No time tracking'
       ],
-      cta: 'Inizia gratis',
+      cta: 'Start free',
       popular: false
     },
     {
       name: 'Pro',
       price: '9',
-      period: '/mese',
-      description: 'Per professionisti produttivi',
+      period: '/month',
+      description: 'For productive professionals',
       features: [
-        'Tutte le piattaforme supportate',
-        'Task illimitati',
-        'AI avanzata con machine learning',
-        'Notifiche smart (Email + Telegram)',
-        'Statistiche produttività complete',
-        'Time tracking automatico',
-        'Dashboard personalizzabile',
-        'Supporto prioritario'
+        'All supported platforms',
+        'Unlimited tasks',
+        'Advanced AI with machine learning',
+        'Smart notifications (Email + Telegram)',
+        'Complete productivity analytics',
+        'Automatic time tracking',
+        'Customizable dashboard',
+        'Priority support'
       ],
       limitations: [],
-      cta: 'Prova gratis 14 giorni',
+      cta: 'Try free for 14 days',
       popular: true
     },
     {
       name: 'Team',
       price: '19',
-      period: '/mese per utente',
-      description: 'Per team che vogliono scalare',
+      period: '/month per user',
+      description: 'For teams that want to scale',
       features: [
-        'Tutto del piano Pro',
-        'Gestione team avanzata',
-        'Dashboard condivise',
-        'Analytics del team',
-        'Integrazioni custom via API',
-        'SSO e sicurezza enterprise',
-        'Account manager dedicato',
-        'Onboarding personalizzato'
+        'Everything in Pro',
+        'Advanced team management',
+        'Shared dashboards',
+        'Team analytics',
+        'Custom integrations via API',
+        'SSO and enterprise security',
+        'Dedicated account manager',
+        'Personalized onboarding'
       ],
       limitations: [],
-      cta: 'Contatta il team vendite',
+      cta: 'Contact sales team',
       popular: false
     }
   ];
@@ -71,10 +71,10 @@ const PricingSection = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-            Pricing <span className="gradient-text">semplice</span> e <span className="gradient-text">trasparente</span>
+            <span className="gradient-text">Simple</span> and <span className="gradient-text">transparent</span> pricing
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Inizia gratis e scala quando sei pronto. Nessun costo nascosto, cancella quando vuoi.
+            Start free and scale when you're ready. No hidden costs, cancel anytime.
           </p>
         </div>
 
@@ -86,7 +86,7 @@ const PricingSection = () => {
               {plan.popular && (
                 <Badge className="absolute -top-3 left-1/2 transform -translate-x-1/2 bg-primary-500 text-white">
                   <Star className="w-3 h-3 mr-1" />
-                  Più popolare
+                  Most popular
                 </Badge>
               )}
 
@@ -94,7 +94,7 @@ const PricingSection = () => {
                 <h3 className="text-2xl font-bold text-gray-900 mb-2">{plan.name}</h3>
                 <p className="text-gray-600 mb-4">{plan.description}</p>
                 <div className="flex items-baseline justify-center">
-                  <span className="text-4xl font-bold text-gray-900">€{plan.price}</span>
+                  <span className="text-4xl font-bold text-gray-900">${plan.price}</span>
                   <span className="text-gray-600 ml-1">{plan.period}</span>
                 </div>
               </div>
@@ -112,7 +112,7 @@ const PricingSection = () => {
 
               <div className="space-y-4">
                 <div>
-                  <h4 className="font-semibold text-gray-900 mb-3">Incluso:</h4>
+                  <h4 className="font-semibold text-gray-900 mb-3">Included:</h4>
                   <ul className="space-y-2">
                     {plan.features.map((feature, featureIndex) => (
                       <li key={featureIndex} className="flex items-start">
@@ -125,7 +125,7 @@ const PricingSection = () => {
 
                 {plan.limitations.length > 0 && (
                   <div>
-                    <h4 className="font-semibold text-gray-900 mb-3">Non incluso:</h4>
+                    <h4 className="font-semibold text-gray-900 mb-3">Not included:</h4>
                     <ul className="space-y-2">
                       {plan.limitations.map((limitation, limitationIndex) => (
                         <li key={limitationIndex} className="flex items-start">
@@ -146,9 +146,9 @@ const PricingSection = () => {
         {/* FAQ link */}
         <div className="text-center mt-12">
           <p className="text-gray-600">
-            Hai domande sui piani? 
+            Have questions about our plans? 
             <a href="#faq" className="text-primary-600 hover:text-primary-700 ml-1 font-medium">
-              Controlla le FAQ
+              Check the FAQ
             </a>
           </p>
         </div>

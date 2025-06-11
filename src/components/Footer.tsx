@@ -42,8 +42,8 @@ const Footer = () => {
               <span className="text-xl font-bold">TaskSync.AI</span>
             </div>
             <p className="text-gray-400 mb-6 max-w-sm">
-              Unifica tutti i tuoi task in una dashboard intelligente. 
-              Sincronizza, organizza e completa con il potere dell'AI.
+              Unify all your tasks in one intelligent dashboard. 
+              Sync, organize and complete with the power of AI.
             </p>
             <div className="flex space-x-4">
               <a href="#" className="text-gray-400 hover:text-white transition-colors">
